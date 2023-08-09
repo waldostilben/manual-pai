@@ -1,0 +1,40 @@
+site_name: Manual do sistema PAI
+site_url: https://spai-pgjm.github.io/manual-pai/
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: red 
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Alternar para modo escuro
+
+    - scheme: slate 
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Alternar para modo claro
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/spai-pgjm
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@MinisterioPublicoMilitar
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/ministeriopublicomilitar/
+
+copyright: |
+  &copy; 2023 <a href="https://spai.mpm.mp.br"  target="_blank" rel="noopener">SPAI - PGJM</a>
